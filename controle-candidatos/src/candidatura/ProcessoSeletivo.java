@@ -7,7 +7,8 @@ public class ProcessoSeletivo {
 	static double salarioBase = 2000.00;
 	
 	public static void main (String[] args) {
-	
+		selecaoCandidatos();
+		imprimirSelecionados();
 		String [] candidatos = {"Felipe", "Marcia", "Junior", "Erick","Marcela"};
 		for(String candidato:candidatos) {
 			entrandoEmContato(candidato);
